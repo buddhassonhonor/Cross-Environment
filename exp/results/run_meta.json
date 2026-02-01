@@ -1,0 +1,30 @@
+{
+  "datasets": [
+    "colored_mnist",
+    "rotated_mnist",
+    "breast_cancer",
+    "synthetic_spurious"
+  ],
+  "methods": [
+    "erm",
+    "groupdro",
+    "rex",
+    "irm",
+    "coral",
+    "ipdr",
+    "ipdr_inv",
+    "ipdr_no_ent",
+    "ipdr_no_inv",
+    "ipdr_dro_inv",
+    "ipdr_inv_cov"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "device": "cpu",
+  "elapsed_sec": 937.5155730247498
+}

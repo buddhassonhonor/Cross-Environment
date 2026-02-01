@@ -1,0 +1,25 @@
+{
+  "dataset": "PACS",
+  "envs": [
+    "art_painting",
+    "cartoon",
+    "photo",
+    "sketch"
+  ],
+  "methods": [
+    "erm",
+    "groupdro",
+    "ipdr_inv",
+    "ipdr_no_ent",
+    "ipdr"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "epochs": 50,
+  "batch_size": 256,
+  "device": "cuda",
+  "elapsed_sec": 293.4872362613678
+}

@@ -1,0 +1,5 @@
+dataset,p_ipdr_vs_groupdro_worst,diff_ipdr_vs_groupdro_worst
+breast_cancer,0.4995,-0.0035087719298245723
+colored_mnist,1.0,-0.00015999999999998237
+rotated_mnist,0.0611,0.04476
+synthetic_spurious,0.0611,-0.016599999999999903

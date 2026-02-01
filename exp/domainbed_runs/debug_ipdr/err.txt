@@ -1,0 +1,32 @@
+Traceback (most recent call last):
+  File "D:\claude-code\math18\exp\domainbed\domainbed\scripts\train.py", line 146, in <module>
+    train_loaders = [InfiniteDataLoader(
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "D:\claude-code\math18\exp\domainbed\domainbed\scripts\train.py", line 146, in <listcomp>
+    train_loaders = [InfiniteDataLoader(
+                     ^^^^^^^^^^^^^^^^^^^
+  File "D:\claude-code\math18\exp\domainbed\domainbed\lib\fast_data_loader.py", line 35, in __init__
+    self._infinite_iterator = iter(torch.utils.data.DataLoader(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\45684\miniconda3\envs\ai_scientist\Lib\site-packages\torch\utils\data\dataloader.py", line 494, in __iter__
+    return self._get_iterator()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\45684\miniconda3\envs\ai_scientist\Lib\site-packages\torch\utils\data\dataloader.py", line 427, in _get_iterator
+    return _MultiProcessingDataLoaderIter(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\45684\miniconda3\envs\ai_scientist\Lib\site-packages\torch\utils\data\dataloader.py", line 1228, in __init__
+    self._reset(loader, first_iter=True)
+  File "C:\Users\45684\miniconda3\envs\ai_scientist\Lib\site-packages\torch\utils\data\dataloader.py", line 1270, in _reset
+    self._try_put_index()
+  File "C:\Users\45684\miniconda3\envs\ai_scientist\Lib\site-packages\torch\utils\data\dataloader.py", line 1523, in _try_put_index
+    index = self._next_index()
+            ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\45684\miniconda3\envs\ai_scientist\Lib\site-packages\torch\utils\data\dataloader.py", line 724, in _next_index
+    return next(self._sampler_iter)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\claude-code\math18\exp\domainbed\domainbed\lib\fast_data_loader.py", line 12, in __iter__
+    for batch in self.sampler:
+  File "C:\Users\45684\miniconda3\envs\ai_scientist\Lib\site-packages\torch\utils\data\sampler.py", line 337, in __iter__
+    for batch_droplast in zip(*args):
+                          ^^^^^^^^^^
+KeyboardInterrupt

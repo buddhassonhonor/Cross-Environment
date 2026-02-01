@@ -1,0 +1,183 @@
+Environment:
+	Python: 3.11.10
+	PyTorch: 2.9.0.dev20250630+cu128
+	Torchvision: 0.23.0.dev20250701+cu128
+	CUDA: 12.8
+	CUDNN: 91002
+	NumPy: 1.26.4
+	PIL: 11.2.1
+Args:
+	algorithm: ERM
+	checkpoint_freq: None
+	data_dir: D:\data\domainbed_data
+	dataset: PACS
+	holdout_fraction: 0.2
+	hparams: None
+	hparams_seed: 0
+	output_dir: exp\domainbed_runs_q1\PACS\ERM\test_env0\seed0
+	save_model_every_checkpoint: False
+	seed: 0
+	skip_model_save: False
+	steps: None
+	task: domain_generalization
+	test_envs: [0]
+	trial_seed: 0
+	uda_holdout_fraction: 0
+HParams:
+	batch_size: 32
+	class_balanced: False
+	data_augmentation: True
+	dinov2: False
+	freeze_bn: False
+	lars: False
+	linear_steps: 500
+	lr: 5e-05
+	nonlinear_classifier: False
+	resnet18: False
+	resnet50_augmix: True
+	resnet_dropout: 0.0
+	vit: False
+	vit_attn_tune: False
+	vit_dropout: 0.0
+	weight_decay: 0.0
+Environment:
+	Python: 3.11.10
+	PyTorch: 2.9.0.dev20250630+cu128
+	Torchvision: 0.23.0.dev20250701+cu128
+	CUDA: 12.8
+	CUDNN: 91002
+	NumPy: 1.26.4
+	PIL: 11.2.1
+Args:
+	algorithm: ERM
+	checkpoint_freq: None
+	data_dir: D:\data\domainbed_data
+	dataset: PACS
+	holdout_fraction: 0.2
+	hparams: None
+	hparams_seed: 0
+	output_dir: exp\domainbed_runs_q1\PACS\ERM\test_env0\seed0
+	save_model_every_checkpoint: False
+	seed: 0
+	skip_model_save: False
+	steps: None
+	task: domain_generalization
+	test_envs: [0]
+	trial_seed: 0
+	uda_holdout_fraction: 0
+HParams:
+	batch_size: 32
+	class_balanced: False
+	data_augmentation: True
+	dinov2: False
+	freeze_bn: False
+	lars: False
+	linear_steps: 500
+	lr: 5e-05
+	nonlinear_classifier: False
+	resnet18: False
+	resnet50_augmix: True
+	resnet_dropout: 0.0
+	vit: False
+	vit_attn_tune: False
+	vit_dropout: 0.0
+	weight_decay: 0.0
+Environment:
+	Python: 3.11.10
+	PyTorch: 2.9.0.dev20250630+cu128
+	Torchvision: 0.23.0.dev20250701+cu128
+	CUDA: 12.8
+	CUDNN: 91002
+	NumPy: 1.26.4
+	PIL: 11.2.1
+Args:
+	algorithm: ERM
+	checkpoint_freq: None
+	data_dir: D:\data\domainbed_data
+	dataset: PACS
+	holdout_fraction: 0.2
+	hparams: None
+	hparams_seed: 0
+	output_dir: exp\domainbed_runs_q1\PACS\ERM\test_env0\seed0
+	save_model_every_checkpoint: False
+	seed: 0
+	skip_model_save: False
+	steps: None
+	task: domain_generalization
+	test_envs: [0]
+	trial_seed: 0
+	uda_holdout_fraction: 0
+HParams:
+	batch_size: 32
+	class_balanced: False
+	data_augmentation: True
+	dinov2: False
+	freeze_bn: False
+	lars: False
+	linear_steps: 500
+	lr: 5e-05
+	nonlinear_classifier: False
+	resnet18: False
+	resnet50_augmix: True
+	resnet_dropout: 0.0
+	vit: False
+	vit_attn_tune: False
+	vit_dropout: 0.0
+	weight_decay: 0.0
+Environment:
+	Python: 3.11.10
+	PyTorch: 2.9.0.dev20250630+cu128
+	Torchvision: 0.23.0.dev20250701+cu128
+	CUDA: 12.8
+	CUDNN: 91002
+	NumPy: 1.26.4
+	PIL: 11.2.1
+Args:
+	algorithm: ERM
+	checkpoint_freq: None
+	data_dir: D:\data\domainbed_data
+	dataset: PACS
+	holdout_fraction: 0.2
+	hparams: None
+	hparams_seed: 0
+	num_workers: 0
+	output_dir: exp\domainbed_runs_q1\PACS\ERM\test_env0\seed0
+	save_model_every_checkpoint: False
+	seed: 0
+	skip_model_save: False
+	steps: None
+	task: domain_generalization
+	test_envs: [0]
+	trial_seed: 0
+	uda_holdout_fraction: 0
+HParams:
+	batch_size: 32
+	class_balanced: False
+	data_augmentation: True
+	dinov2: False
+	freeze_bn: False
+	lars: False
+	linear_steps: 500
+	lr: 5e-05
+	nonlinear_classifier: False
+	resnet18: False
+	resnet50_augmix: True
+	resnet_dropout: 0.0
+	vit: False
+	vit_attn_tune: False
+	vit_dropout: 0.0
+	weight_decay: 0.0
+C:\Users\45684\miniconda3\envs\ai_scientist\Lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\45684\miniconda3\envs\ai_scientist\Lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Downloading: "https://download.pytorch.org/models/resnet50-0676ba61.pth" to C:\Users\45684/.cache\torch\hub\checkpoints\resnet50-0676ba61.pth
+  0%|                                                                                                                                   | 0.00/97.8M [00:00<?, ?B/s]  0%|1                                                                                                                           | 128k/97.8M [00:00<01:56, 877kB/s]  1%|6                                                                                                                          | 512k/97.8M [00:00<00:43, 2.36MB/s]  2%|##3                                                                                                                       | 1.88M/97.8M [00:00<00:14, 7.07MB/s]  4%|####3                                                                                                                     | 3.50M/97.8M [00:00<00:09, 10.5MB/s]  5%|#####7                                                                                                                    | 4.62M/97.8M [00:00<00:09, 10.7MB/s]  6%|#######1                                                                                                                  | 5.75M/97.8M [00:00<00:09, 10.5MB/s]  7%|########7                                                                                                                 | 7.00M/97.8M [00:00<00:08, 11.1MB/s]  9%|##########6                                                                                                               | 8.50M/97.8M [00:00<00:07, 12.4MB/s] 10%|############7                                                                                                             | 10.2M/97.8M [00:01<00:06, 13.9MB/s] 12%|##############8                                                                                                           | 11.9M/97.8M [00:01<00:06, 14.6MB/s] 14%|################9                                                                                                         | 13.6M/97.8M [00:01<00:05, 15.4MB/s] 15%|##################8                                                                                                       | 15.1M/97.8M [00:01<00:06, 14.4MB/s] 17%|####################8                                                                                                     | 16.8M/97.8M [00:01<00:05, 15.1MB/s] 19%|######################9                                                                                                   | 18.4M/97.8M [00:01<00:05, 15.7MB/s] 20%|########################9                                                                                                 | 20.0M/97.8M [00:01<00:05, 15.8MB/s] 22%|##########################9                                                                                               | 21.6M/97.8M [00:01<00:05, 15.3MB/s] 24%|############################8                                                                                             | 23.1M/97.8M [00:01<00:05, 15.3MB/s] 26%|###############################3                                                                                          | 25.1M/97.8M [00:01<00:04, 16.8MB/s] 27%|#################################3                                                                                        | 26.8M/97.8M [00:02<00:04, 15.9MB/s] 29%|###################################8                                                                                      | 28.8M/97.8M [00:02<00:04, 16.9MB/s] 31%|######################################3                                                                                   | 30.8M/97.8M [00:02<00:03, 17.9MB/s] 33%|########################################8                                                                                 | 32.8M/97.8M [00:02<00:03, 18.6MB/s] 36%|###########################################5                                                                              | 34.9M/97.8M [00:02<00:03, 19.4MB/s] 38%|##############################################1                                                                           | 37.0M/97.8M [00:02<00:03, 20.1MB/s] 40%|################################################9                                                                         | 39.2M/97.8M [00:02<00:02, 21.0MB/s] 43%|###################################################9                                                                      | 41.6M/97.8M [00:02<00:02, 22.1MB/s] 45%|#######################################################2                                                                  | 44.2M/97.8M [00:02<00:02, 23.7MB/s] 48%|##########################################################3                                                               | 46.8M/97.8M [00:03<00:02, 24.1MB/s] 51%|##############################################################2                                                           | 49.9M/97.8M [00:03<00:01, 26.4MB/s] 54%|#################################################################5                                                        | 52.5M/97.8M [00:03<00:01, 26.3MB/s] 56%|####################################################################7                                                     | 55.1M/97.8M [00:03<00:01, 26.7MB/s] 59%|########################################################################3                                                 | 58.0M/97.8M [00:03<00:01, 27.0MB/s] 62%|###########################################################################6                                              | 60.6M/97.8M [00:03<00:01, 22.4MB/s] 64%|##############################################################################6                                           | 63.0M/97.8M [00:03<00:01, 21.9MB/s] 67%|#################################################################################4                                        | 65.2M/97.8M [00:03<00:01, 21.7MB/s] 69%|####################################################################################2                                     | 67.5M/97.8M [00:04<00:01, 16.2MB/s] 73%|#########################################################################################                                 | 71.4M/97.8M [00:04<00:01, 21.2MB/s] 75%|############################################################################################                              | 73.8M/97.8M [00:04<00:01, 19.2MB/s] 78%|##############################################################################################6                           | 75.9M/97.8M [00:04<00:01, 18.5MB/s] 80%|#################################################################################################3                        | 78.0M/97.8M [00:04<00:01, 19.2MB/s] 82%|###################################################################################################8                      | 80.0M/97.8M [00:04<00:01, 16.9MB/s] 84%|######################################################################################################1                   | 81.9M/97.8M [00:04<00:00, 17.5MB/s] 86%|#########################################################################################################1                | 84.2M/97.8M [00:04<00:00, 19.2MB/s] 89%|############################################################################################################5             | 87.0M/97.8M [00:05<00:00, 21.5MB/s] 92%|###############################################################################################################6          | 89.5M/97.8M [00:05<00:00, 22.7MB/s] 94%|##################################################################################################################9       | 92.1M/97.8M [00:05<00:00, 23.9MB/s] 97%|######################################################################################################################3   | 94.9M/97.8M [00:05<00:00, 25.0MB/s]100%|#########################################################################################################################4| 97.4M/97.8M [00:05<00:00, 24.6MB/s]100%|##########################################################################################################################| 97.8M/97.8M [00:05<00:00, 18.7MB/s]
+model.safetensors:   0%|                                                                                                                 | 0.00/102M [00:00<?, ?B/s]model.safetensors:   0%|                                                                                                     | 12.5k/102M [00:06<15:17:54, 1.86kB/s]model.safetensors:   0%|                                                                                                      | 54.7k/102M [00:07<2:54:23, 9.79kB/s]model.safetensors:   0%|2                                                                                                        | 232k/102M [00:07<29:59, 56.8kB/s]model.safetensors:   1%|6                                                                                                         | 667k/102M [00:07<08:08, 209kB/s]model.safetensors:   1%|#4                                                                                                       | 1.37M/102M [00:07<03:09, 533kB/s]model.safetensors:   2%|##                                                                                                       | 2.00M/102M [00:07<01:53, 888kB/s]model.safetensors:   3%|##9                                                                                                     | 2.89M/102M [00:07<01:04, 1.54MB/s]model.safetensors:   4%|####1                                                                                                   | 4.11M/102M [00:08<00:39, 2.49MB/s]model.safetensors:   6%|#####8                                                                                                  | 5.74M/102M [00:08<00:24, 4.02MB/s]model.safetensors:   7%|######7                                                                                                 | 6.69M/102M [00:08<00:24, 3.93MB/s]model.safetensors:   8%|########6                                                                                               | 8.55M/102M [00:08<00:15, 5.91MB/s]model.safetensors:   9%|#########6                                                                                              | 9.51M/102M [00:08<00:16, 5.69MB/s]model.safetensors:  14%|##############8                                                                                         | 14.6M/102M [00:08<00:06, 13.5MB/s]model.safetensors:  20%|####################4                                                                                   | 20.2M/102M [00:08<00:03, 21.5MB/s]model.safetensors:  23%|########################2                                                                               | 23.9M/102M [00:09<00:03, 24.7MB/s]model.safetensors:  27%|############################5                                                                           | 28.1M/102M [00:09<00:03, 22.5MB/s]model.safetensors:  37%|######################################2                                                                 | 37.7M/102M [00:09<00:01, 34.6MB/s]model.safetensors:  42%|###########################################7                                                            | 43.1M/102M [00:09<00:01, 32.3MB/s]model.safetensors:  47%|################################################8                                                       | 48.1M/102M [00:09<00:01, 34.3MB/s]model.safetensors:  51%|#####################################################2                                                  | 52.4M/102M [00:10<00:02, 23.8MB/s]model.safetensors:  56%|##########################################################4                                             | 57.6M/102M [00:10<00:01, 26.6MB/s]model.safetensors:  90%|##############################################################################################          | 92.7M/102M [00:10<00:00, 48.4MB/s]model.safetensors:  95%|##################################################################################################3     | 96.9M/102M [00:10<00:00, 40.6MB/s]model.safetensors: 100%|#########################################################################################################| 102M/102M [00:11<00:00, 32.9MB/s]model.safetensors: 100%|#########################################################################################################| 102M/102M [00:11<00:00, 9.09MB/s]
+C:\Users\45684\miniconda3\envs\ai_scientist\Lib\site-packages\huggingface_hub\file_download.py:143: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\45684\.cache\huggingface\hub\models--timm--resnet50.ram_in1k. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+env0_in_acc   env0_out_acc  env1_in_acc   env1_out_acc  env2_in_acc   env2_out_acc  env3_in_acc   env3_out_acc  epoch         loss          mem_gb        step          step_time    
+0.1433801098  0.1393643032  0.1727078891  0.1688034188  0.2627245509  0.2335329341  0.2035623410  0.2165605096  0.0000000000  1.9571634531  7.9335145950  0             1.4651520252 
+0.8322147651  0.8508557457  0.9904051173  0.9679487179  0.9992514970  0.9820359281  0.9688295165  0.9439490446  7.1856287425  0.2360652433  8.1384134293  300           0.5311612733 
+0.8248932276  0.8190709046  0.9957356077  0.9679487179  0.9992514970  0.9670658683  0.9879134860  0.9579617834  14.371257485  0.0331009980  8.1384134293  600           0.4938723509 
