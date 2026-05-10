@@ -1,0 +1,46 @@
+Environment:
+	Python: 3.11.10
+	PyTorch: 2.9.0.dev20250630+cu128
+	Torchvision: 0.23.0.dev20250701+cu128
+	CUDA: 12.8
+	CUDNN: 91002
+	NumPy: 1.26.4
+	PIL: 11.2.1
+Args:
+	algorithm: IPDR
+	checkpoint_freq: None
+	data_dir: D:\data\domainbed_data
+	dataset: PACS
+	holdout_fraction: 0.2
+	hparams: None
+	hparams_seed: 0
+	num_workers: None
+	output_dir: exp\test_run\IPDR
+	save_model_every_checkpoint: False
+	seed: 0
+	skip_model_save: False
+	steps: 300
+	task: domain_generalization
+	test_envs: [0]
+	trial_seed: 0
+	uda_holdout_fraction: 0
+HParams:
+	batch_size: 32
+	class_balanced: False
+	data_augmentation: True
+	dinov2: False
+	freeze_bn: False
+	ipdr_ent_lambda: 0.1
+	ipdr_eta: 0.01
+	ipdr_inv_lambda: 1.0
+	lars: False
+	linear_steps: 500
+	lr: 5e-05
+	nonlinear_classifier: False
+	resnet18: False
+	resnet50_augmix: True
+	resnet_dropout: 0.0
+	vit: False
+	vit_attn_tune: False
+	vit_dropout: 0.0
+	weight_decay: 0.0

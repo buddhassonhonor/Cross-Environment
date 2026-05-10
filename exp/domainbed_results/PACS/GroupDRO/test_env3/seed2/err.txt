@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "D:\claude-code\math18\exp\domainbed\domainbed\scripts\train.py", line 98, in <module>
+    raise RuntimeError(
+        "CUDA is not available. This training script requires a GPU."
+    )
+RuntimeError: CUDA is not available. This training script requires a GPU.

@@ -1,0 +1,51 @@
+Environment:
+	Python: 3.13.2
+	PyTorch: 2.9.1+cpu
+	Torchvision: 0.24.1+cpu
+	CUDA: None
+	CUDNN: None
+	NumPy: 2.4.3
+	PIL: 12.0.0
+Args:
+	algorithm: ERM
+	checkpoint_freq: 5000
+	data_dir: ..\domainbed_data
+	dataset: PACS
+	holdout_fraction: 0.2
+	hparams: None
+	hparams_seed: 0
+	num_workers: None
+	output_dir: ..\domainbed_results\PACS\ERM\test_env2\seed2
+	save_model_every_checkpoint: False
+	seed: 2
+	skip_model_save: False
+	steps: 5000
+	task: domain_generalization
+	test_envs: [2]
+	trial_seed: 0
+	uda_holdout_fraction: 0
+HParams:
+	batch_size: 32
+	class_balanced: False
+	data_augmentation: True
+	dinov2: False
+	freeze_bn: False
+	lars: False
+	linear_steps: 500
+	lr: 5e-05
+	nonlinear_classifier: False
+	resnet18: False
+	resnet50_augmix: True
+	resnet_dropout: 0.0
+	vit: False
+	vit_attn_tune: False
+	vit_dropout: 0.0
+	weight_decay: 0.0
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "D:\claude-code\math18\exp\domainbed\domainbed\scripts\train.py", line 98, in <module>
+    raise RuntimeError(
+        "CUDA is not available. This training script requires a GPU."
+    )
+RuntimeError: CUDA is not available. This training script requires a GPU.

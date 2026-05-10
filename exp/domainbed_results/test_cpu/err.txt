@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "D:\claude-code\math18\exp\domainbed\domainbed\scripts\train.py", line 104, in <module>
+    dataset = vars(datasets)[args.dataset](args.data_dir,
+        args.test_envs, hparams)
+  File "D:\claude-code\math18\exp\domainbed\domainbed\datasets.py", line 239, in __init__
+    super().__init__(self.dir, test_envs, hparams['data_augmentation'], hparams)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\claude-code\math18\exp\domainbed\domainbed\datasets.py", line 225, in __init__
+    self.num_classes = len(self.datasets[-1].classes)
+                           ~~~~~~~~~~~~~^^^^
+IndexError: list index out of range
